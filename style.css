@@ -1,0 +1,213 @@
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-banner{
+    background-image: url("images/Group-13.png");
+    width: 100%;
+    height: 500px;
+}
+.top-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .visiting-travel{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 400px;
+}
+
+nav .home-angcor{
+    color: #FF5400;
+}
+
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* frist-section-div */
+.section-one{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.frist-section-div{
+    max-width: 800px;
+    margin-right: 60px;
+}
+.frist-peregrap{
+    color: rgba(19, 19, 24, 0.70);
+}
+.frist-ul{
+    color: rgba(19, 19, 24, 0.70);
+    /* padding: 8px; */
+    gap: 5px;
+}
+.section-one-2nd-p{
+    color: rgba(19, 19, 24, 0.70);
+}
+.all-button{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 34px 13px 35px;
+    border-style: none;
+    color: aliceblue;
+}
+/* section two */
+.Choose-Your-Destination{
+    text-align: center;
+}
+.Choose-Your-Destination-peragrap{
+    color: rgba(19, 19, 24, 0.70);
+}
+
+
+
+
+/* section-three */
+.why-choose-content div{
+    width: 40%;
+}
+.why-choose-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.section-three-1st-div{
+    text-align: center;
+}
+.section-three p{
+    color: rgba(19, 19, 24, 0.70);
+}
+.section-three-2nd-div{
+    border: 1px solid  rgba(251, 181, 99, 0.05);
+    border-radius: 8px;
+    background: rgba(251, 181, 99, 0.20);
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-three-3rd-div{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 50px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+.section-three-4th-div{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo-image{
+    width: 10%;
+}
+
+/* section four */
+.Discounts .description{
+    color: rgba(19, 19, 24, 0.70);
+}
+.Discounts{
+    text-align: center;
+}
+.Tour-Satorini{
+    display: flex;
+    background-image: url("images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: end;
+    align-items: center;
+    height: 400px;
+    padding: 100px;
+    border-radius: 20px;
+}
+.Tour-description{
+    background-color: antiquewhite;
+    width:45%;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.with-Tour-Satorini{
+    display: flex;
+    background-image: url("images/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: right;
+    align-items: center;
+    height: 400px;
+    padding: 100px;
+    border-radius: 20px;
+}
+.from-Tour-description{
+    background-color: antiquewhite;
+    width:45%;
+    border-radius: 25px;
+    padding: 50px;
+}
+.Tour-description p{
+    color: #5A5A5D;
+}
+.from-Tour-description p{
+    color: #5A5A5D;
+}
+
+/* section five  */
+.Perfect-Place{
+    display: flex;
+
+}
+.Perfect-Place, p, ul{
+    color: #5A5A5D;
+}
+
+/* section six */
+.section-six{
+    display: flex;
+}
+.Newsletter{
+    border: 1px solid #FF5400;
+    border-radius: 8px;
+    padding: 40px;
+    margin-right: 24px;
+}
+
+
+/* footer section */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 100px;
+}
+.Visiting{
+    display: flex;
+    align-items: center;
+}
+.travel{
+    color: #FF5400;
+}
+.footer-description{
+    color: rgba(19, 19, 24, 0.70);
+}
+.finishing-part img{
+    height: 23px;
+    margin-right: 10px;
+}
+hr{
+    max-width: 900px;
+}
