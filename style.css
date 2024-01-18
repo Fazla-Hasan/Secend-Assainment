@@ -42,6 +42,9 @@ nav .visiting-travel{
     gap: 25px;
     width: 400px;
 }
+.angcors{
+    text-decoration: none;
+}
 
 nav .home-angcor{
     color: #FF5400;
