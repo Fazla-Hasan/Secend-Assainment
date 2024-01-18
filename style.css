@@ -1,17 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .top-banner{
+    display: flex;
+    justify-content: center;
     background-image: url("images/Group-13.png");
     width: 100%;
     height: 500px;
 }
-.top-banner{
+.banner-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    padding: 30px;
+    color: white;
+}
+.banner-form{
+    display: flex;
+    gap: 24px;
+}
+.banner-form input{
+    border-radius: 8px;
+    background: #FFF;
 }
 
 nav{
@@ -34,7 +52,8 @@ main{
     max-width: 1200px;
     margin: 0 auto;
 }
-/* frist-section-div */
+
+/* section-one */
 .section-one{
     display: flex;
     justify-content: center;
@@ -43,6 +62,13 @@ main{
 .frist-section-div{
     max-width: 800px;
     margin-right: 60px;
+}
+.frist-section-div h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.frist-section-div .all-button{
+    margin-top: 34px;
 }
 .frist-peregrap{
     color: rgba(19, 19, 24, 0.70);
@@ -62,12 +88,19 @@ main{
     border-style: none;
     color: aliceblue;
 }
+
 /* section two */
 .Choose-Your-Destination{
     text-align: center;
 }
 .Choose-Your-Destination-peragrap{
     color: rgba(19, 19, 24, 0.70);
+}
+.Choose-Your-Destination{
+    margin-bottom: 45px;
+}
+.Choose-Your-Destination-peragrap{
+    margin-top: 24px;
 }
 
 
@@ -83,9 +116,13 @@ main{
     gap: 24px;
     justify-content: center;
 }
-
 .section-three-1st-div{
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+.section-three-1st-div h2{
+    margin-bottom: 24px;
 }
 .section-three p{
     color: rgba(19, 19, 24, 0.70);
@@ -114,8 +151,19 @@ main{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.section-three-2nd-div h3{
+    margin-bottom: 10px;
+}
+.section-three-3rd-div h3{
+    margin-bottom: 10px;
+}
+.section-three-4th-div h3{
+    margin-bottom: 10px;
+}
+
 .logo-image{
     width: 10%;
+    margin-bottom: 32px;
 }
 
 /* section four */
@@ -124,6 +172,11 @@ main{
 }
 .Discounts{
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+.Discounts .description{
+    margin-top: 24px;
 }
 .Tour-Satorini{
     display: flex;
@@ -142,13 +195,12 @@ main{
     border-radius: 25px;
     padding: 50px;
 }
-
 .with-Tour-Satorini{
     display: flex;
     background-image: url("images/Group\ 40.png");
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: right;
+    justify-content: start;
     align-items: center;
     height: 400px;
     padding: 100px;
@@ -159,26 +211,64 @@ main{
     width:45%;
     border-radius: 25px;
     padding: 50px;
+    margin: 24px 0;
+}
+.from-Tour-description h4{
+    margin-bottom: 16px;
+}
+.from-Tour-description .Price{
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+.with-Tour-Satorini{
+    margin: 24px 0;
 }
 .Tour-description p{
     color: #5A5A5D;
+    
+}
+.Tour-description h4{
+    margin-bottom: 16px;
 }
 .from-Tour-description p{
     color: #5A5A5D;
 }
+.Tour-description .Price{
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+.section-four .Price{
+    color: #FF5400;
+    font-size: 20px;
+}
+.See-All-Packages{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 110px;
+}
 
 /* section five  */
+.section-five{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .Perfect-Place{
     display: flex;
-
 }
-.Perfect-Place, p, ul{
+.Perfect-Place p, ul{
     color: #5A5A5D;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.Perfect-Place h2{
+    font-size: 40px;
 }
 
 /* section six */
 .section-six{
     display: flex;
+    margin-bottom: 100px;
 }
 .Newsletter{
     border: 1px solid #FF5400;
@@ -196,13 +286,14 @@ footer{
 }
 .Visiting{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 .travel{
     color: #FF5400;
 }
 .footer-description{
     color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 33px;
 }
 .finishing-part img{
     height: 23px;
@@ -210,4 +301,6 @@ footer{
 }
 hr{
     max-width: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
